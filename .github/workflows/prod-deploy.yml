@@ -1,0 +1,12 @@
+name: Prod Deployment
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy master branch
+        run: echo Deploying master branch
