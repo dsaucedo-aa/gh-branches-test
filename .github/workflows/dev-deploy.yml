@@ -8,5 +8,5 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy dev branch
-        run: echo Deploying dev branch
+      - name: Deploy develop branch
+        run: echo Deploying develop branch
